@@ -26,6 +26,42 @@ h1 {
 	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
+.neon {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 
+                 0 0 10px #fff, 
+                 0 0 20px #ff00ff, 
+                 0 0 30px #ff00ff, 
+                 0 0 40px #ff00ff, 
+                 0 0 50px #ff00ff, 
+                 0 0 60px #ff00ff;
+}
+
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 5px #fff, 
+                     0 0 10px #fff, 
+                     0 0 20px #ff00ff, 
+                     0 0 30px #ff00ff, 
+                     0 0 40px #ff00ff, 
+                     0 0 50px #ff00ff, 
+                     0 0 60px #ff00ff;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 
+                     0 0 20px #ff00ff, 
+                     0 0 30px #ff00ff, 
+                     0 0 40px #ff00ff, 
+                     0 0 50px #ff00ff, 
+                     0 0 60px #ff00ff, 
+                     0 0 70px #ff00ff;
+    }
+}
+
+.neon {
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
 .links {
     display: flex;
    
