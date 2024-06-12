@@ -4,7 +4,7 @@ body {
   rgba(0,0,0,1) 90%), 
   url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/31787/stars.jpg);
 	background-size: cover;
-	z-index:-5;
+	z-index:-1;
 	color: white;
 	overflow-x: hidden;
 	font-family: 'Monoton', monospace;
@@ -81,6 +81,13 @@ h1 {
     border-radius: 5px;
     object-fit: contain;
     background-color: white;
+    transition: all 0.1s ease, border-color 0.1s ease; ;
+}
+
+
+.dexscreener:hover {
+    border-color: red;
+    transform: scale(1.1);
 }
 
 #overlay {
@@ -91,6 +98,7 @@ h1 {
 	margin: auto;
 	width: 100%;
 	text-align: center;
+    z-index: -1;
 }
 
 #layer-0 {
